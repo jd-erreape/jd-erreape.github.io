@@ -18,11 +18,61 @@
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
+      "company": "BetVictor",
+      "position": "Team Lead - Web Development",
+      "website": "https://www.betvictor.com",
+      "startDate": "2015-01-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "BetVictor",
+      "position": "Ruby and JS Developer",
+      "website": "https://www.betvictor.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-01-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Razorfish Healthware",
+      "position": "Principal Developer",
+      "website": "http://www.razorfishhealthware.com",
+      "startDate": "2013-01-01",
+      "endDate": "2015-01-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Nuatt",
+      "position": "Analist / Ruby and JS Programmer",
+      "website": "https://www.linkedin.com/company/nuatt",
+      "startDate": "2011-03-01",
+      "endDate": "2013-01-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "FCCAFD 'Universidad de Granada'",
+      "position": "Web Developer",
+      "startDate": "2009-01-01",
+      "endDate": "2009-12-01",
       "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
       "highlights": [
         "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
