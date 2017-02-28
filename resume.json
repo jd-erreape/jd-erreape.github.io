@@ -111,21 +111,37 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Programming concepts",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Object Oriented",
+        "Functional (basic, most interested in this now)",
+        "TDD",
+        "BDD"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Javascript",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "ES6",
+        "React",
+        "Redux",
+        "Angular",
+        "Backbone",
+        "Underscore",
+        "JQuery"
+      ]
+    },
+    {
+      "name": "Ruby",
+      "keywords": [
+        "Rails",
+        "Rack",
+        "Bundler",
+        "Rspec",
+        "Cucumber",
+        "Sidekiq",
+        "Devise",
+        "Paperclip"
       ]
     }
   ],
