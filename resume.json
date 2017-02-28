@@ -22,11 +22,12 @@
       "position": "Team Lead - Web Development",
       "website": "https://www.betvictor.com",
       "startDate": "2015-01-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Application development with Ruby on Rails using TDD",
+        "Task requirements analysis, design, implementation and testing of applications",
+        "Investigation of new technologies that fit our projects",
+        "Provide help to junior developers",
+        "Management of development teams"
       ]
     },
     {
@@ -35,11 +36,9 @@
       "website": "https://www.betvictor.com",
       "startDate": "2014-04-01",
       "endDate": "2015-01-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Application development with Ruby on Rails, using TDD",
+        "Task requirements analysis, design, implementation and testing of applications"
       ]
     },
     {
@@ -47,12 +46,14 @@
       "position": "Principal Developer",
       "website": "http://www.razorfishhealthware.com",
       "startDate": "2013-01-01",
-      "endDate": "2015-01-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "endDate": "2014-04-01",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Application development with Ruby on Rails using TDD",
+        "Support project managers in terms of task estimations",
+        "Task requirements analysis, design, implementation and testing of applications",
+        "Investigation of new technologies that fit our projects",
+        "Provide help to junior developers",
+        "Management of development teams"
       ]
     },
     {
@@ -61,11 +62,14 @@
       "website": "https://www.linkedin.com/company/nuatt",
       "startDate": "2011-03-01",
       "endDate": "2013-01-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Development of desktop web and mobile applications (mainly Ruby on Rails)",
+        "CMS development for the company using MongoDB and Liquid templating language.",
+        "http://www.metrobilbao.net Bilbao subway new website, lead developer",
+        "http://www.goldenmanager.com Football manager, lead developer",
+        "http://www.alumnieste.com Asociación Alumni ESTE de la Universidad de Deusto",
+        "http://www.racc.net/ RACC Móvil",
+        "http://munaypa.medicosdelmundo.org/ Médicos del Mundo (voluntariado)"
       ]
     },
     {
@@ -73,11 +77,8 @@
       "position": "Web Developer",
       "startDate": "2009-01-01",
       "endDate": "2009-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Web portal development for the 'Facultad de Ciencias de la Actividad Física y el Deporte (FCCAFD) Universidad de Granada' (http://deporte.ugr.es)"
       ]
     }
   ],
@@ -106,23 +107,6 @@
         "DB1101 - Basic SQL",
         "CS2011 - Java Introduction"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
@@ -162,12 +146,6 @@
         "Basketball",
         "Pádel"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
   ]
 }
