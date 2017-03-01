@@ -82,6 +82,57 @@
       ]
     }
   ],
+  "volunteer": [
+    {
+      "organization": "discourse/discourse",
+      "position": "Open Source contribution",
+      "website": "https://github.com/fetlife/rollout",
+      "startDate": "2015-06-01",
+      "endDate": "2015-07-01",
+      "summary": "",
+      "highlights": [
+        "https://github.com/discourse/discourse/pull/928",
+        "https://github.com/discourse/discourse/pull/975",
+        "https://github.com/discourse/discourse/pull/1159",
+        "https://github.com/discourse/discourse/pull/982",
+        "https://github.com/discourse/discourse/pull/973",
+        "https://github.com/discourse/discourse/pull/980"
+      ]
+    },
+    {
+      "organization": "fetlife/rollout",
+      "position": "Open Source contribution",
+      "website": "https://github.com/discourse/discourse",
+      "startDate": "2015-06-01",
+      "endDate": "2015-07-01",
+      "summary": "",
+      "highlights": [
+        "https://github.com/fetlife/rollout/pull/80"
+      ]
+    },
+    {
+      "organization": "plataformatec/devise",
+      "position": "Open Source contribution",
+      "website": "https://github.com/plataformatec/devise",
+      "startDate": "2013-05-01",
+      "endDate": "2013-07-01",
+      "summary": "",
+      "highlights": [
+        "https://github.com/plataformatec/devise/pull/2401"
+      ]
+    },
+    {
+      "organization": "tscolari/mobylette",
+      "position": "Open Source contribution",
+      "website": "https://github.com/tscolari/mobylette",
+      "startDate": "2013-04-01",
+      "endDate": "2013-04-01",
+      "summary": "",
+      "highlights": [
+        "https://github.com/tscolari/mobylette/pull/26"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "University of Granada 'ETSIIT'",
@@ -150,6 +201,13 @@
   ],
   "skills": [
     {
+      "name": "General",
+      "keywords": [
+        "Git",
+        "Bash"
+      ]
+    },
+    {
       "name": "Ruby",
       "keywords": [
         "Rails",
@@ -166,6 +224,8 @@
       "name": "Javascript",
       "keywords": [
         "ES6",
+        "Webpack",
+        "Babel",
         "React",
         "Redux",
         "Angular",
