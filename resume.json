@@ -82,41 +82,84 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "institution": "University of Granada 'ETSIIT'",
+      "area": "Computer Scientist",
+      "studyType": "Engineer",
+      "startDate": "2003-01-01",
+      "endDate": "2010-01-01",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Different programming languages",
+        "Different programming paradigms",
+        "Database's design",
+        "Wide knowledge about OS",
+        "Wide knowledge about computer's and network's structure",
+        "Wide knowledge about compilers",
+        "Team working",
+        "Good self-learning abilities",
+        "Proactivity"
+      ]
+    },
+    {
+      "institution": "University of Granada 'Centro de formación continua'",
+      "area": "Development of interactive services via a web interface",
+      "studyType": "Course",
+      "startDate": "2004-06-01",
+      "endDate": "2004-07-01",
+      "courses": [
+        "PHP programming",
+        "DBMS MySQL"
+      ]
+    },
+    {
+      "institution": "University of Granada 'Centro de formación continua'",
+      "area": "Web design and programming",
+      "studyType": "Course",
+      "startDate": "2004-06-01",
+      "endDate": "2004-07-01",
+      "courses": [
+        "HTML",
+        "Javascript",
+        "CSS"
+      ]
+    },
+    {
+      "institution": "University of Granada 'Centro de formación continua'",
+      "area": "Java web services",
+      "studyType": "Course",
+      "startDate": "2009-06-01",
+      "endDate": "2009-07-01",
+      "courses": [
+        "Javas web services",
+        "WSDL",
+        "XML"
+      ]
+    },
+    {
+      "institution": "Campus de Imagina Formación (http://www.campus.imaginagroup.com/)",
+      "area": "iOS5 development",
+      "studyType": "Course",
+      "startDate": "2012-04-01",
+      "endDate": "2002-06-01",
+      "courses": [
+        "Objective-C",
+        "Xcode"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Programming concepts",
+      "name": "Ruby",
       "keywords": [
-        "Object Oriented",
-        "Functional (basic, most interested in this now)",
-        "TDD",
-        "BDD"
+        "Rails",
+        "Rack",
+        "Bundler",
+        "Rspec",
+        "Cucumber",
+        "Sidekiq",
+        "Devise",
+        "Paperclip"
       ]
     },
     {
@@ -132,16 +175,32 @@
       ]
     },
     {
-      "name": "Ruby",
+      "name": "Programming paradigms",
       "keywords": [
-        "Rails",
-        "Rack",
-        "Bundler",
-        "Rspec",
-        "Cucumber",
-        "Sidekiq",
-        "Devise",
-        "Paperclip"
+        "Object Oriented",
+        "Functional (basic level, most interested in this now)"
+      ]
+    },
+    {
+      "name": "Programming methodologies",
+      "keywords": [
+        "TDD",
+        "BDD"
+      ]
+    },
+    {
+      "name": "OS",
+      "keywords": [
+        "OSX",
+        "Unix"
+      ]
+    },
+    {
+      "name": "Editors",
+      "keywords": [
+        "Atom",
+        "Vim",
+        "Rubymine"
       ]
     }
   ],
@@ -161,6 +220,22 @@
       "keywords": [
         "Basketball",
         "Pádel"
+      ]
+    },
+    {
+      "name": "Videogames",
+      "keywords": [
+        "PS4",
+        "Nintendo Switch",
+        "Hearthstone",
+        "Eve Online"
+      ]
+    },
+    {
+      "name": "Movies",
+      "keywords": [
+        "Sci-Fi",
+        "Horror"
       ]
     }
   ]
