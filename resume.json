@@ -26,9 +26,11 @@
       "highlights": [
         "Application development with Ruby on Rails using TDD",
         "Task requirements analysis, design, implementation and testing of applications",
-        "Investigation of new technologies that fit our projects",
+        "Investigation and implantation of new technologies that fit our projects",
         "Provide help to junior developers",
-        "Management of development teams"
+        "Management of development teams",
+        "Responsible for the interviewing and hiring process of new team members",
+        "Development of internal tools to ease complex or time consuming processes"
       ]
     },
     {
@@ -183,7 +185,7 @@
       "startDate": "2009-06-01",
       "endDate": "2009-07-01",
       "courses": [
-        "Javas web services",
+        "Java web services",
         "WSDL",
         "XML"
       ]
@@ -205,7 +207,12 @@
       "name": "General",
       "keywords": [
         "Git",
-        "Bash"
+        "Bash",
+        "Docker",
+        "Kubernetes",
+        "Gitlab CI",
+        "Redis",
+        "Memcached"
       ]
     },
     {
@@ -229,6 +236,8 @@
         "Babel",
         "React",
         "Redux",
+        "Jest",
+        "Mocha",
         "Angular",
         "Backbone",
         "Underscore",
@@ -239,7 +248,7 @@
       "name": "Programming paradigms",
       "keywords": [
         "Object Oriented",
-        "Functional (basic level, most interested in this now)"
+        "Functional"
       ]
     },
     {
@@ -253,12 +262,14 @@
       "name": "OS",
       "keywords": [
         "OSX",
-        "Unix"
+        "Unix",
+        "WSL"
       ]
     },
     {
       "name": "Editors",
       "keywords": [
+        "Visual Studio Code",
         "Atom",
         "Vim",
         "Rubymine"
@@ -286,9 +297,10 @@
     {
       "name": "Videogames",
       "keywords": [
-        "PS4",
+        "PS5",
         "Nintendo Switch",
-        "Hearthstone",
+        "PC",
+        "Escape from Tarkov",
         "Eve Online"
       ]
     },
