@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Juan de Dios Herrero Pérez</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9yug7q');
-  src:  url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9yug7q') format('truetype'),
-    url('fonts/icomoon.woff?9yug7q') format('woff'),
-    url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,20 +24,64 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
-  content: "\e905";
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
 }
-.icon-trophy:before {
-  content: "\e605";
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
 }
-.icon-office:before {
-  content: "\e606";
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
 }
-.icon-clock:before {
-  content: "\e60a";
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
 }
-.icon-reddit:before {
-  content: "\e609";
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
 }
 .icon-telegram:before {
   content: "\e904";
@@ -147,25 +191,20 @@
 .icon-facebook:before {
   content: "\f230";
 }
-.icon-meetup .path1:before {
-  content: "\e901";
-  color: rgb(255, 255, 255);
+.icon-instagram:before {
+  content: "\e905";
 }
-.icon-meetup .path2:before {
-  content: "\e902";
-  margin-left: -1.5em;
-  color: rgb(240, 1, 1);
+.icon-trophy:before {
+  content: "\e605";
 }
-.icon-meetup .path3:before {
-  content: "\e903";
-  margin-left: -1.5em;
-  color: rgb(3, 3, 3);
+.icon-office:before {
+  content: "\e606";
 }
-.icon-blogger:before {
-  content: "\e900";
+.icon-clock:before {
+  content: "\e60a";
 }
-.icon-exercism:before {
-  content: "\e601";
+.icon-reddit:before {
+  content: "\e609";
 }
 .icon-profile:before {
   content: "\e600";
@@ -185,12 +224,6 @@
 .icon-newspaper:before {
   content: "\e607";
 }
-.icon-dots-three-horizontal:before {
-  content: "\e60b";
-}
-.icon-thumbs-up:before {
-  content: "\e604";
-}
 .icon-chevron-down:before {
   content: "\e60c";
 }
@@ -206,7 +239,6 @@
 .icon-board:before {
   content: "\e608";
 }
-
 
 .relative {
   position: relative;
@@ -247,6 +279,15 @@
 .label-keyword:last-child {
   margin-right: 0;
 }
+.label-keyword p {
+  margin: 0;
+}
+.label-keyword a {
+  color: white;
+}
+.label-keyword a:hover {
+  text-decoration: none;
+}
 .link-disguise {
   color: inherit;
 }
@@ -263,7 +304,7 @@
 }
 .fs-lg {
   font-size: 1.33333333em;
-  line-height: .75em;
+  line-height: 0.75em;
   vertical-align: -15%;
 }
 .fs-2x {
@@ -284,10 +325,11 @@
   padding: 0;
   outline: none !important;
 }
+/* the version when the icon file is last updated */
 @font-face {
   font-family: 'jst-elegant';
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -959,28 +1001,75 @@ body {
   }
 }
 </style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#volunteer-work"><i class="mr-10 icon-child"></i>Volunteer Work</a></li><li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Juan de Dios Herrero Pérez" src="https://s.gravatar.com/avatar/30480635e540b86434316fff59f6d1a2?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Juan de Dios Herrero Pérez</b></h3><h5 class="text-muted" itemprop="jobTitle">Computer Science Engineer / Specialized in Ruby and Javascript</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">Spanish, English</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="https://github.com/jd-erreape" target="_blank" data-toggle="tooltip" title="Juan de Dios Herrero Pérez on Github"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/juandediosherrero" target="_blank" data-toggle="tooltip" title="Juan de Dios Herrero Pérez on Linkedin"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>Born and raised in Antequera (Málaga). I'm a technology enthusiast and also a gamer, I love to play Basketball!</p>
-</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Team Lead - Web Development</strong>,&nbsp;<a href="https://www.betvictor.com" target="_blank">BetVictor</a></p><p class="text-muted"><small><span class="space-right">Jan, 2015 - Present</span><span><i class="icon-clock mr-5"></i>2 years 2 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Application development with Ruby on Rails using TDD</p>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Team Lead - Web Development</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2015 - Present</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Application development with Ruby on Rails using TDD</p>
 </li><li class="mop-wrapper"><p>Task requirements analysis, design, implementation and testing of applications</p>
 </li><li class="mop-wrapper"><p>Investigation of new technologies that fit our projects</p>
 </li><li class="mop-wrapper"><p>Provide help to junior developers</p>
 </li><li class="mop-wrapper"><p>Management of development teams</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Ruby and JS Developer</strong>,&nbsp;<a href="https://www.betvictor.com" target="_blank">BetVictor</a></p><p class="text-muted"><small><span class="space-right">Apr, 2014 - Jan, 2015</span><span><i class="icon-clock mr-5"></i>9 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Application development with Ruby on Rails, using TDD</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Ruby and JS Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Apr, 2014 - Jan, 2015</span><span><i class="icon-clock mr-5"></i>9 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Application development with Ruby on Rails, using TDD</p>
 </li><li class="mop-wrapper"><p>Task requirements analysis, design, implementation and testing of applications</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Developer</strong>,&nbsp;<a href="http://www.razorfishhealthware.com" target="_blank">Razorfish Healthware</a></p><p class="text-muted"><small><span class="space-right">Jan, 2013 - Apr, 2014</span><span><i class="icon-clock mr-5"></i>1 year 3 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Application development with Ruby on Rails using TDD</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Principal Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2013 - Apr, 2014</span><span><i class="icon-clock mr-5"></i>1 year 3 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Application development with Ruby on Rails using TDD</p>
 </li><li class="mop-wrapper"><p>Support project managers in terms of task estimations</p>
 </li><li class="mop-wrapper"><p>Task requirements analysis, design, implementation and testing of applications</p>
 </li><li class="mop-wrapper"><p>Investigation of new technologies that fit our projects</p>
 </li><li class="mop-wrapper"><p>Provide help to junior developers</p>
 </li><li class="mop-wrapper"><p>Management of development teams</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Analist / Ruby and JS Programmer</strong>,&nbsp;<a href="https://www.linkedin.com/company/nuatt" target="_blank">Nuatt</a></p><p class="text-muted"><small><span class="space-right">Mar, 2011 - Jan, 2013</span><span><i class="icon-clock mr-5"></i>1 year 10 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Development of desktop web and mobile applications (mainly Ruby on Rails)</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Analist / Ruby and JS Programmer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Mar, 2011 - Jan, 2013</span><span><i class="icon-clock mr-5"></i>1 year 10 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Development of desktop web and mobile applications (mainly Ruby on Rails)</p>
 </li><li class="mop-wrapper"><p>CMS development for the company using MongoDB and Liquid templating language.</p>
 </li><li class="mop-wrapper"><p>http://www.metrobilbao.net Bilbao subway new website, lead developer</p>
 </li><li class="mop-wrapper"><p>http://www.goldenmanager.com Football manager, lead developer</p>
 </li><li class="mop-wrapper"><p>http://www.alumnieste.com Asociación Alumni ESTE de la Universidad de Deusto</p>
 </li><li class="mop-wrapper"><p>http://www.racc.net/ RACC Móvil</p>
 </li><li class="mop-wrapper"><p>http://munaypa.medicosdelmundo.org/ Médicos del Mundo (voluntariado)</p>
-</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Web Developer</strong>,&nbsp;FCCAFD 'Universidad de Granada'</p><p class="text-muted"><small><span class="space-right">Jan, 2009 - Dec, 2009</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Web portal development for the 'Facultad de Ciencias de la Actividad Física y el Deporte (FCCAFD) Universidad de Granada' (http://deporte.ugr.es)</p>
-</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>General</strong><div class="space-top labels"><span class="label label-keyword">Git</span><span class="label label-keyword">Bash</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Ruby</strong><div class="space-top labels"><span class="label label-keyword">Rails</span><span class="label label-keyword">Rack</span><span class="label label-keyword">Bundler</span><span class="label label-keyword">Rspec</span><span class="label label-keyword">Cucumber</span><span class="label label-keyword">Sidekiq</span><span class="label label-keyword">Devise</span><span class="label label-keyword">Paperclip</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Javascript</strong><div class="space-top labels"><span class="label label-keyword">ES6</span><span class="label label-keyword">Webpack</span><span class="label label-keyword">Babel</span><span class="label label-keyword">React</span><span class="label label-keyword">Redux</span><span class="label label-keyword">Angular</span><span class="label label-keyword">Backbone</span><span class="label label-keyword">Underscore</span><span class="label label-keyword">JQuery</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming paradigms</strong><div class="space-top labels"><span class="label label-keyword">Object Oriented</span><span class="label label-keyword">Functional (basic level, most interested in this now)</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming methodologies</strong><div class="space-top labels"><span class="label label-keyword">TDD</span><span class="label label-keyword">BDD</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>OS</strong><div class="space-top labels"><span class="label label-keyword">OSX</span><span class="label label-keyword">Unix</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Editors</strong><div class="space-top labels"><span class="label label-keyword">Atom</span><span class="label label-keyword">Vim</span><span class="label label-keyword">Rubymine</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Computer Scientist, Engineer,&nbsp;</strong>University of Granada 'ETSIIT'</p><p class="text-muted"><small>Jan, 2003 - Jan, 2010</small></p><i></i><div class="space-top labels"><span class="label label-keyword">Different programming languages</span><span class="label label-keyword">Different programming paradigms</span><span class="label label-keyword">Database's design</span><span class="label label-keyword">Wide knowledge about OS</span><span class="label label-keyword">Wide knowledge about computer's and network's structure</span><span class="label label-keyword">Wide knowledge about compilers</span><span class="label label-keyword">Team working</span><span class="label label-keyword">Good self-learning abilities</span><span class="label label-keyword">Proactivity</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Development of interactive services via a web interface, Course,&nbsp;</strong>University of Granada 'Centro de formación continua'</p><p class="text-muted"><small>Jun, 2004 - Jul, 2004</small></p><i></i><div class="space-top labels"><span class="label label-keyword">PHP programming</span><span class="label label-keyword">DBMS MySQL</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Web design and programming, Course,&nbsp;</strong>University of Granada 'Centro de formación continua'</p><p class="text-muted"><small>Jun, 2004 - Jul, 2004</small></p><i></i><div class="space-top labels"><span class="label label-keyword">HTML</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">CSS</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Java web services, Course,&nbsp;</strong>University of Granada 'Centro de formación continua'</p><p class="text-muted"><small>Jun, 2009 - Jul, 2009</small></p><i></i><div class="space-top labels"><span class="label label-keyword">Javas web services</span><span class="label label-keyword">WSDL</span><span class="label label-keyword">XML</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>iOS5 development, Course,&nbsp;</strong>Campus de Imagina Formación (http://www.campus.imaginagroup.com/)</p><p class="text-muted"><small>Apr, 2012 - Jun, 2002</small></p><i></i><div class="space-top labels"><span class="label label-keyword">Objective-C</span><span class="label label-keyword">Xcode</span></div></div></li></ul></div></div></div><div class="detail" id="volunteer-work"><div class="icon"><i class="fs-lg icon-child"></i><span class="mobile-title">Volunteer Work</span></div><div class="info"><h4 class="title text-uppercase">Volunteer Work</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Open Source contribution, </strong><a href="https://github.com/fetlife/rollout" target="_blank">discourse/discourse</a></p><p class="text-muted"><small>Jun, 2015 - Jul, 2015</small></p><div class="mop-wrapper"></div><ul><li class="mop-wrapper"><p>https://github.com/discourse/discourse/pull/928</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Web Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2009 - Dec, 2009</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Web portal development for the 'Facultad de Ciencias de la Actividad Física y el Deporte (FCCAFD) Universidad de Granada' (http://deporte.ugr.es)</p>
+</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>General</strong><div class="space-top labels"><span class="label label-keyword"><p>Git</p>
+</span><span class="label label-keyword"><p>Bash</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Ruby</strong><div class="space-top labels"><span class="label label-keyword"><p>Rails</p>
+</span><span class="label label-keyword"><p>Rack</p>
+</span><span class="label label-keyword"><p>Bundler</p>
+</span><span class="label label-keyword"><p>Rspec</p>
+</span><span class="label label-keyword"><p>Cucumber</p>
+</span><span class="label label-keyword"><p>Sidekiq</p>
+</span><span class="label label-keyword"><p>Devise</p>
+</span><span class="label label-keyword"><p>Paperclip</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Javascript</strong><div class="space-top labels"><span class="label label-keyword"><p>ES6</p>
+</span><span class="label label-keyword"><p>Webpack</p>
+</span><span class="label label-keyword"><p>Babel</p>
+</span><span class="label label-keyword"><p>React</p>
+</span><span class="label label-keyword"><p>Redux</p>
+</span><span class="label label-keyword"><p>Angular</p>
+</span><span class="label label-keyword"><p>Backbone</p>
+</span><span class="label label-keyword"><p>Underscore</p>
+</span><span class="label label-keyword"><p>JQuery</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming paradigms</strong><div class="space-top labels"><span class="label label-keyword"><p>Object Oriented</p>
+</span><span class="label label-keyword"><p>Functional (basic level, most interested in this now)</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Programming methodologies</strong><div class="space-top labels"><span class="label label-keyword"><p>TDD</p>
+</span><span class="label label-keyword"><p>BDD</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>OS</strong><div class="space-top labels"><span class="label label-keyword"><p>OSX</p>
+</span><span class="label label-keyword"><p>Unix</p>
+</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Editors</strong><div class="space-top labels"><span class="label label-keyword"><p>Atom</p>
+</span><span class="label label-keyword"><p>Vim</p>
+</span><span class="label label-keyword"><p>Rubymine</p>
+</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Computer Scientist, Engineer,&nbsp;</strong>University of Granada 'ETSIIT'</p><p class="text-muted"><small>Jan, 2003 - Jan, 2010</small></p><i></i><div class="space-top labels"><span class="label label-keyword"><p>Different programming languages</p>
+</span><span class="label label-keyword"><p>Different programming paradigms</p>
+</span><span class="label label-keyword"><p>Database's design</p>
+</span><span class="label label-keyword"><p>Wide knowledge about OS</p>
+</span><span class="label label-keyword"><p>Wide knowledge about computer's and network's structure</p>
+</span><span class="label label-keyword"><p>Wide knowledge about compilers</p>
+</span><span class="label label-keyword"><p>Team working</p>
+</span><span class="label label-keyword"><p>Good self-learning abilities</p>
+</span><span class="label label-keyword"><p>Proactivity</p>
+</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Development of interactive services via a web interface, Course,&nbsp;</strong>University of Granada 'Centro de formación continua'</p><p class="text-muted"><small>Jun, 2004 - Jul, 2004</small></p><i></i><div class="space-top labels"><span class="label label-keyword"><p>PHP programming</p>
+</span><span class="label label-keyword"><p>DBMS MySQL</p>
+</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Web design and programming, Course,&nbsp;</strong>University of Granada 'Centro de formación continua'</p><p class="text-muted"><small>Jun, 2004 - Jul, 2004</small></p><i></i><div class="space-top labels"><span class="label label-keyword"><p>HTML</p>
+</span><span class="label label-keyword"><p>Javascript</p>
+</span><span class="label label-keyword"><p>CSS</p>
+</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Java web services, Course,&nbsp;</strong>University of Granada 'Centro de formación continua'</p><p class="text-muted"><small>Jun, 2009 - Jul, 2009</small></p><i></i><div class="space-top labels"><span class="label label-keyword"><p>Javas web services</p>
+</span><span class="label label-keyword"><p>WSDL</p>
+</span><span class="label label-keyword"><p>XML</p>
+</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>iOS5 development, Course,&nbsp;</strong>Campus de Imagina Formación (http://www.campus.imaginagroup.com/)</p><p class="text-muted"><small>Apr, 2012 - Jun, 2012</small></p><i></i><div class="space-top labels"><span class="label label-keyword"><p>Objective-C</p>
+</span><span class="label label-keyword"><p>Xcode</p>
+</span></div></div></li></ul></div></div></div><div class="detail" id="volunteer-work"><div class="icon"><i class="fs-lg icon-child"></i><span class="mobile-title">Volunteer Work</span></div><div class="info"><h4 class="title text-uppercase">Volunteer Work</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Open Source contribution, </strong><a href="https://github.com/fetlife/rollout" target="_blank">discourse/discourse</a></p><p class="text-muted"><small>Jun, 2015 - Jul, 2015</small></p><div class="mop-wrapper"></div><ul><li class="mop-wrapper"><p>https://github.com/discourse/discourse/pull/928</p>
 </li><li class="mop-wrapper"><p>https://github.com/discourse/discourse/pull/975</p>
 </li><li class="mop-wrapper"><p>https://github.com/discourse/discourse/pull/1159</p>
 </li><li class="mop-wrapper"><p>https://github.com/discourse/discourse/pull/982</p>
