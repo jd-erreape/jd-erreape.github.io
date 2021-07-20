@@ -23,15 +23,15 @@
       "position": "Team Lead - Web Development / Team Lead - Web Backend Development",
       "website": "https://www.betvictor.com",
       "startDate": "2015-01-01",
-      "summary": "Acting as a Team Lead in BetVictor allowed me to grow more in my career as I was given more responsibility not just for me but also for a whole team. I kept working on different projects for BV web application and always was involved in the most critical ones like those belonging to big sport events. I also focused a lot on improving diffeerent processes that eased a lot the working experience for all the team. All this while managing as well non development related aspects like the hiring process, mentoring, performance reviews...",
+      "summary": "Acting as a Team Lead in BetVictor allowed me to grow more in my career as I was given more responsibility not just for me but also for a whole team. I kept working on different projects for BV web application and always was involved in the most critical ones like those belonging to big sports events. I also focused a lot on improving different processes that eased a lot of the working experience for all the team. All this while managing as well non-development-related aspects like the hiring process, mentoring, performance reviews...",
       "highlights": [
         "Application development with Ruby on Rails using TDD",
         "Task requirements analysis, design, implementation and testing of applications",
-        "Always in charge of the web development part for time sensitive projects related to big sport events like Eurocup or Worldcup, they always were delivered on time",
+        "Always in charge of the web development part for time-sensitive projects related to big sports events like Eurocup or Worldcup, they always were delivered on time",
         "Always focused on scalability and performance, proper usage of caching mechanisms was always a must. (Action caching, Fragment caching, proper usage of HTTP caching headers...)",
         "Investigation and implantation of new technologies that fit our projects, as an example, I lead the migration of the old Backbone application to React",
-        "Development of internal tools to ease complex or time consuming processes, from an Electron app which reduced the time required to prepare business reports from almost a day to 10 minutes, to several Gitlab CI pipeline jobs that automated code quality tasks, release procedures...",
-        "Proposed and implanted Cypress functional testing tool for our automatic regression processes which is triggered directly as part of our pipelines",
+        "Development of internal tools to ease complex or time-consuming processes, from an Electron app which reduced the time required to prepare business reports from almost a day to 10 minutes, to several Gitlab CI pipeline jobs that automated code quality tasks, release procedures...",
+        "Proposed and implanted Cypress functional testing tool for our automatic regression processes which are triggered directly as part of our pipelines",
         "Participated in the migration of our app from a B2C to a B2B model",
         "Responsible for the interviewing and hiring process of new team members",
         "Active on code reviews, conducted workshops to present ideas and implementation proposals for the rest of the team",
@@ -45,10 +45,10 @@
       "website": "https://www.betvictor.com",
       "startDate": "2014-04-01",
       "endDate": "2015-01-01",
-      "summary": "My movement to BetVictor meant my first interaction with an international environment, it helped me to fully interact in English for work related matters and also my first interaction with an own product instead of the consultancy model. I adapted pretty fast to the position and started to took responsibilities that didn't belong to it but nobody was doing, that and also the lack of leadership by that time within Web team allowed me to be quickly promoted to Team Lead",
+      "summary": "My movement to BetVictor meant my first interaction with an international environment, it helped me to fully interact in English for work-related matters and also my first interaction with a single product instead of the consultancy model. I adapted pretty fast to the position and started to took responsibilities that didn't belong to it but nobody was doing, that and also the lack of leadership by that time within the Web team allowed me to be quickly promoted to Team Lead",
       "highlights": [
         "Application development with Ruby on Rails, using TDD",
-        "Task requirements analysis, design, implementation and testing of applications"
+        "Task requirements analysis, design, implementation, and testing of applications"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "highlights": [
         "Application development with Ruby on Rails using TDD",
         "Support project managers in terms of task estimations",
-        "Task requirements analysis, design, implementation and testing of applications",
+        "Task requirements analysis, design, implementation, and testing of applications",
         "Provide help to junior developers (mentorship)"
       ]
     },
@@ -71,7 +71,7 @@
       "website": "https://www.linkedin.com/company/nuatt",
       "startDate": "2011-03-01",
       "endDate": "2013-01-01",
-      "summary": "Working at Nuatt could be considered my first professional job. There I learned Ruby on Rails and Javascript and collaborated in a huge variety of projects. It is when I started to know about concepts like TDD, SOLID principles, refactoring... It was a small consultancy company where the projects where very fast paced, so that also helped me to be able to manage expectations in terms of timings and deadlines.",
+      "summary": "Working at Nuatt could be considered my first professional job. There I learned Ruby on Rails and Javascript and collaborated on a huge variety of projects. It is when I started to know about concepts like TDD, SOLID principles, refactoring... It was a small consultancy company where the projects were very fast-paced, so that also helped me to be able to manage expectations in terms of timings and deadlines.",
       "highlights": [
         "Development of desktop web and mobile applications (mainly Ruby on Rails)",
         "CMS development for the company using MongoDB and Liquid templating language.",
